@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/dulanjayabhanu/HelpHub2.0">
-<img src="https://github.com/dulanjayabhanu/Manthra/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="HelpHub2.0 Main Logo" width="200" height="200">
+<img src="assets/Manthra_logo.png" alt="HelpHub2.0 Main Logo" width="200" height="200">
 </a>
 <h3 align="center">Manthra</h3>
 <p align="center">
