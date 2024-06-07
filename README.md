@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/dulanjayabhanu/HelpHub2.0">
-<img src="assets/icon.png" alt="HelpHub2.0 Main Logo" width="200" height="200">
+<img src="https://github.com/dulanjayabhanu/Manthra/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="HelpHub2.0 Main Logo" width="200" height="200">
 </a>
 <h3 align="center">Manthra</h3>
 <p align="center">
@@ -21,31 +21,25 @@ REACTNATIVE CHAT APPLICATION
 
 # Manthra
 
-Welcome to Help Hub 2.0🐝, a web application developed to connect people🌎 who need help with those who can offer assistance in a simple and efficient manner. This project showcases my skills and passion for web development and social good.
+Welcome to Manthra 📱, a React Native chat application designed for personal chat conversations, finding new friends, and more. This project showcases my skills and passion for mobile app development and social connectivity.
 
 <div>
-  <img src="assets/Main_wall.png" alt="Example GIF" style="border-radius: 10px; margin: 10px;">
+  <img src="assets/Manthra_mobile.png" alt="Example GIF" style="border-radius: 10px; margin: 10px;">
 </div>
 
 ## ✨ Features
 
-- **User Registration and Authentication**: Create an account and log in securely🔒.
-- **Post Creation**: Publish posts to seek or offer help📝.
-- **Commenting System**: Engage with posts through comments💬.
-- **Private Chat**: Communicate privately with other users💌.
-- **Notifications**: Receive notifications for new interactions🔔.
-- **Search Functionality**: Find relevant posts and follow your favorite categories using the built-in search indexing algorithm🔍⚙️.
-- **Responsive Design**: Enjoy a seamless experience across all devices📱💻 with the use of Bootstrap and pure CSS.
+- **User Registration and Authentication**: Create an account and log in securely 🔒.
+- **Personal Chat**: Have private conversations with friends 💬.
+- **Find New Friends**: Discover and connect with new people 🌍.
+- **Profile Management**: Update your profile and password easily 🛠️.
+- **Notifications**: Stay updated with notifications for new messages and activities 🔔.
 
 ## 💻 Technologies Used
 
+- **React Native**: Frontend framework for building mobile applications.
 - **PHP**: Backend scripting language.
-- **JavaScript**: Client-side scripting.
 - **MySQL**: Database management system.
-- **AJAX**: Asynchronous communication between client and server.
-- **HTML**: Markup language for creating web pages.
-- **Bootstrap**: CSS framework for responsive design.
-- **CSS**: Custom styles for the application.
 
 ## 🛠️ Installation
 
@@ -53,88 +47,41 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dulanjayabhanu/HelpHub2.0.git
-   cd helphub2.0
-
-## Setup the Database
-
-1. **Create a MySQL database**:
-   - Log in to your MySQL server.
-   - Create a new database for the project using the following command:
-     ```sql
-     CREATE DATABASE your_database_name;
-     ```
-
-2. **Import the provided SQL file**:
-   - Import the `database.sql` file to set up the required tables in your newly created database.
+   git clone https://github.com/dulanjayabhanu/Manthra.git
+   cd Manthra
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Set up the backend**
+   - Ensure you have PHP and MySQL installed on your server.
+   - Create a MySQL database for the project:
      ```bash
-     mysql -u your_username -p your_database_name < database.sql
-     ```
-
-3. **Configure the Project**:
-   - Rename `config.sample.php` to `config.php`.
-   - Update the database configuration in `config.php` with your database credentials.
-     ```php
-     <?php
-     // config.php
-     define('DB_SERVER', 'your_server');
-     define('DB_USERNAME', 'your_username');
-     define('DB_PASSWORD', 'your_password');
-     define('DB_NAME', 'your_database_name');
-     ?>
-     ```
-
-4. **Run the Application**:
-   - Start your local development server (e.g., using XAMPP, WAMP, or a similar tool).
-   - Navigate to `http://localhost/helphub2.0` in your web browser.
-  
-## 🚀 Usage
-
-- **Register** for an account:
-  - Visit the registration page.
-  - Fill out the required information to create a new account.
-
-- **Log in** to your account:
-  - Navigate to the login page.
-  - Enter your credentials to access your account.
-
-- **Create and publish posts** to seek or offer help:
-  - After logging in, go to the post creation page.
-  - Fill in the details of your post and publish it.
-
-- **Comment on posts** to engage with other users:
-  - Browse posts and leave comments to interact with the community.
-
-- **Chat privately with users**:
-  - Use the private messaging feature to communicate directly with other users.
-
-- **Receive notifications** for new interactions:
-  - Get notified when someone interacts with your posts or messages you.
-
-- **Search for relevant posts and follow your favorite categories**:
-  - Use the search functionality to find posts that interest you.
-  - Follow categories to stay updated on new posts in those areas.
+     CREATE DATABASE manthra_db;
+   - Import the database schema from the database folder:
+      ```bash
+      USE manthra_db;
+      SOURCE path_to_schema.sql;
+4. Configure environment variables
+   - Create a `.env` file in the root directory and add your database credentials and other environment variables.
+5. Run the application
+   ```bash
+      npm start
 
 ## 🤝 Contributing
 
-<a href="https://github.com/dulanjayabhanu/HelpHub2.0" style="">
-   <img src="assets/Poster.png" alt="Logo" height="299">
-</a>
-   
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. **Fork the repository**:
-   - Click the "Fork" button on the top right of the repository page.
+1. Fork the Project 🍴
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`) 🌟
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`) 💬
+4. Push to the Branch (`git push origin feature/AmazingFeature`) 🚀
+5. Open a Pull Request 📥
 
-2. **Clone your fork**:
-   ```bash
-   git clone https://github.com/dulanjayabhanu/HelpHub2.0.git
-   cd helphub2.0
+## 📜 License
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-If you have any questions or feedback, please contact me at [dulanjayawebs@gmail.com].
+Dulanjaya Bhanu - [Twitter](https://x.com/i/flow/login?redirect_after_login=%2FDulanjayaBhanu) - dulanjayawebs@gmail.com
+Project Link: [https://github.com/dulanjayabhanu/Manthra](https://github.com/dulanjayabhanu/Manthra)
